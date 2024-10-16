@@ -1,11 +1,11 @@
-* {
+:root {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-image: url('/assets/img/pngtree-wedding-romantic-pink-background-image_2116917.jpg');
+    background-image: url('/assets/img/engraving-hand-drawn-botanical-pattern_23-2148975165.avif');
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
@@ -23,16 +23,6 @@ form {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
-}
-
-h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    color: #333;
-}
-
-div {
-    margin-bottom: 15px;
 }
 
 label {
@@ -69,11 +59,12 @@ button {
     border-radius: 4px;
     color: #ffffff;
     font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    display: flex;
+      justify-content: center;
+    
     
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ff0000;
 }

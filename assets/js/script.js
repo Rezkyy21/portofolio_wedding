@@ -1,3 +1,6 @@
+window.addEventListener('load', () => {
+   alert('Page has fully loaded!');
+});
 document.getElementById('loginForm').addEventListener('submit', function(event){
      event.preventDefault();
 
@@ -13,4 +16,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event){
     }else{
     alert('login gagal');
     }
+    
+  
  });
